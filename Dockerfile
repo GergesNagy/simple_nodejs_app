@@ -1,7 +1,8 @@
-FROM httpd
-RUN systemctl enable httpd \
-systemctl start httpd
-WORKDIR '/var/www/html'
-COPY index.html .
+FROM ubuntu
+USER root
+RUN apt-get update \
+apt-get install nginx \
+systemctl enable nginx \
+systemctl start nginx
 EXPOSE 3000
-CMD httpd
+CMD ubuntu nginx
