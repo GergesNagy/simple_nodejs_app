@@ -1,6 +1,6 @@
 
 # Use an official Node runtime as a parent image
-FROM node
+FROM node:leatest
 
 # Set the working directory to /app
 WORKDIR '/app'
