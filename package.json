@@ -15,6 +15,6 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/ahmedkhaled1995/node_test#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.20.0"
   }
 }
