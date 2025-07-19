@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 USER root
 RUN apt-get update 
 RUN apt-get install -y nginx && apt-get install -y systemd
